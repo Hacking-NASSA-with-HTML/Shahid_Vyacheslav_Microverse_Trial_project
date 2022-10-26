@@ -7,15 +7,23 @@
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
     width: 1024px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 #header {
     width: 100vw;
     height: auto;
-    display: flex;
+    display: block;
+    background-color: rgb(106, 206, 234, .1);
+    position: fixed;
+    top: 0;
 }
 
 #navbar {
@@ -27,8 +35,13 @@ body {
 .navigationSection {
     display: flex;
     width: 100%;
-    height: 100px;
+    height: auto;
     justify-content: end;
+}
+
+.navigationSection li {
+    list-style: none;
+    padding-right: 50px;
 }
 
 #main {
@@ -42,6 +55,14 @@ body {
     height: 100vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
+}
+
+.h1title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40vh 0 20vh 0;
 }
 
 #about {
@@ -71,7 +92,7 @@ body {
 a {
     text-decoration: none;
     font-size: 30px;
-    color: red;
+    color: #302424;
     text-align: center;
     cursor: pointer;
 }
