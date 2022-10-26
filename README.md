@@ -1,1 +1,1 @@
-# Shahid_Vyacheslav_Microverse_Tria_project
+# Shahid_Vyacheslav_Microverse_Trial_project
