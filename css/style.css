@@ -67,6 +67,14 @@ body {
     margin: 40vh 0 20vh 0;
 }
 
+#projects {
+    width: 100vw;
+    height: 1000px;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+}
+
 #about {
     width: 100vw;
     height: 1000px;
