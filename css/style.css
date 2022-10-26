@@ -21,7 +21,7 @@ body {
     width: 100vw;
     height: auto;
     display: block;
-    background-color: rgb(106, 206, 234, .1);
+    background-color: rgb(106, 206, 234, .3);
     position: fixed;
     top: 0;
 }
@@ -87,6 +87,11 @@ body {
     display: flex;
     background-color: blue;
     justify-content: center;
+}
+
+.sectionTitle {
+    margin: 20vh 0;
+    padding: 20vh 0;
 }
 
 a {
