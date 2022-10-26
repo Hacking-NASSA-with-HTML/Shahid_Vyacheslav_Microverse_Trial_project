@@ -18,12 +18,14 @@ body {
 }
 
 #header {
-    width: 100vw;
+    /* width: 100vw; */
+    width: 100%;
     height: auto;
     display: block;
     background-color: rgb(106, 206, 234, .3);
     position: fixed;
     top: 0;
+    border: 1px solid #302424;
 }
 
 #navbar {
